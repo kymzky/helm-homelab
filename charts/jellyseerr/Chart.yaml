@@ -1,0 +1,9 @@
+---
+apiVersion: v2
+name: jellyseerr
+type: application
+version: 1.0.0
+dependencies:
+- name: common
+  repository: https://bubylou.github.io/Arr-Stack
+  version: 0.3.4
