@@ -2,7 +2,7 @@
 apiVersion: v2
 name: navidrome
 type: application
-version: 0.0.1
+version: 1.0.0
 dependencies:
 - name: common
   repository: http://bjw-s.github.io/helm-charts/
