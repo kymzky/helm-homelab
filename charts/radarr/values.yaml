@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: linuxserver/radarr
   pullPolicy: IfNotPresent
-  tag: "5.18.4"
+  tag: "5.19.3"
 
 deployment:
   # -- Deployment strategy
