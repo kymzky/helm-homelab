@@ -2,5 +2,24 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["\\.yaml$", "\\.yml$"],
+      "matchStrings": [
+        "image:\\s*repository:\\s*(?<packageName>ghcr\\.io/wg-easy/wg-easy)[\\s\\S]*?versionOverride:\\s*\"?(?<currentValue>[^\"]+)\"?"
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["ghcr.io/hotio/jellyseerr"],
+      "versioning": "regex:^(?<compatibility>release-)?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
+    },
+    {
+      "matchPackageNames": ["ghcr.io/wg-easy/wg-easy"],
+      "versioning": "regex:^(?<major>\\d+)$"
+    }
   ]
 }
