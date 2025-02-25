@@ -64,6 +64,14 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
+    created: "2025-02-25T21:33:46.226149754Z"
+    digest: 6f3199dfc4e3967a62ae4626de109c32f06f79b26b31d95b173dd11f9840663f
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/radarr-1.0.1/radarr-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     created: "2025-02-25T21:23:42.056352351Z"
     digest: 264632d258ab9067129ff19a195cb7caa8433f4b6a4cb03c83d1528be5d894d2
     name: radarr
@@ -110,4 +118,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-02-25T21:23:42.482631366Z"
+generated: "2025-02-25T21:33:46.226164452Z"
