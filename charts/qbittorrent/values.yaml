@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: linuxserver/qbittorrent
   pullPolicy: IfNotPresent
-  tag: "5.0.4"
+  tag: "20.04.1"
 
 deployment:
   # -- Number of replicaset revisions
