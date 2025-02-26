@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   repository: ghcr.io/wg-easy/wg-easy
-  versionOverride: "14"
+  tag: "14"
   pullPolicy: IfNotPresent
 
 healthCheckUrl: /
@@ -15,7 +15,7 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 terminationGracePeriodSeconds: 10
-environmentVariables:
+env:
   WG_HOST: localhost # WAN IP, or a Dynamic DNS hostname.
   PASSWORD_HASH: $2a$12$lbrnjnWI2NO5/WHAaYJAYO0jrAithNJe/NEXy/kmgzv4NC8pkCbUG # Password hash for the UI (is "password").
 
