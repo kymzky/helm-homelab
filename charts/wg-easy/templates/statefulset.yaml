@@ -68,6 +68,11 @@ spec:
           - name: {{ $key }}
             value: {{ $value | quote }}
           {{- end }}
+          - name: PASSWORD_HASH
+            valueFrom:
+              secretKeyRef:
+                name: wireguard-secret
+                key: passwordHash
           {{- if .Values.enableHttpOpenTelemetryCollector }}
           - name: COLLECTOR_OTLP_ENABLED
             value: "true"

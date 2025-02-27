@@ -17,7 +17,6 @@ fullnameOverride: ""
 terminationGracePeriodSeconds: 10
 env:
   WG_HOST: localhost # WAN IP, or a Dynamic DNS hostname.
-  PASSWORD_HASH: $2a$12$lbrnjnWI2NO5/WHAaYJAYO0jrAithNJe/NEXy/kmgzv4NC8pkCbUG # Password hash for the UI (is "password").
 
 serviceAccount:
   # Specifies whether a service account should be created
