@@ -75,11 +75,11 @@ spec:
                 secretKeyRef:
                   name: telegram-secret
                   key: telegram-token
-            - name: CHAT_GPT_TOKEN
+            - name: OPENAI_API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: chatgpt-secret
-                  key: chatgpt-token
+                  name: openai-secret
+                  key: api-key
       {{- with .Values.volumes }}
       volumes:
         {{- toYaml . | nindent 8 }}
