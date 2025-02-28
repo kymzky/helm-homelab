@@ -2,7 +2,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: conversation-pvc
+  name: telegrammy-pvc
   labels:
     {{- include "telegrammy.labels" . | nindent 4 }}
   annotations:
