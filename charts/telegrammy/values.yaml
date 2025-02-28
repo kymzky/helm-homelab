@@ -98,11 +98,17 @@ volumes:
   - name: config-volume
     configMap:
       name: telegrammy-config
+  - name: conversation-volume
+    persistentVolumeClaim:
+      claimName: conversation-pvc
 
 volumeMounts:
   - name: config-volume
     mountPath: /etc/telegrammy/config.yaml
     subPath: config.yaml
+  - name: conversation-volume
+    mountPath: /etc/telegrammy/conversation
+    subPath: conversation
 
 nodeSelector: {}
 
@@ -121,3 +127,10 @@ telegrammy:
   chatGpt:
     token: ""
     conversationPath: /etc/telegrammy/conversation
+
+persistence:
+  # Enable to persist the ChatGPT conversation
+  enabled: false
+  accessMode: ReadWriteOnce
+  size: 16Mi
+  # storageClass: ""
