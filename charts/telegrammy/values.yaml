@@ -8,7 +8,7 @@ replicaCount: 1
 image:
   repository: ghcr.io/kymzky/telegrammy
   pullPolicy: IfNotPresent
-  tag: "v1.2.0"
+  tag: "v1.3.0"
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
@@ -98,17 +98,17 @@ volumes:
   - name: config-volume
     configMap:
       name: telegrammy-config
-  - name: conversation-volume
+  - name: telegrammy-volume
     persistentVolumeClaim:
-      claimName: conversation-pvc
+      claimName: telegrammy-pvc
 
 volumeMounts:
   - name: config-volume
     mountPath: /etc/telegrammy/config.yaml
     subPath: config.yaml
-  - name: conversation-volume
-    mountPath: /etc/telegrammy/conversation
-    subPath: conversation
+  - name: telegrammy-volume
+    mountPath: /etc/telegrammy
+    subPath: telegrammy
 
 nodeSelector: {}
 
@@ -131,6 +131,6 @@ telegrammy:
 persistence:
   # Enable to persist the ChatGPT conversation
   enabled: false
-  accessMode: ReadWriteOnce
+  accessMode: ReadWriteMany
   size: 16Mi
   # storageClass: ""
