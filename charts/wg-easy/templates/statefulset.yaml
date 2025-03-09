@@ -72,7 +72,7 @@ spec:
             valueFrom:
               secretKeyRef:
                 name: wireguard-secret
-                key: passwordHash
+                key: password-hash
           {{- if .Values.enableHttpOpenTelemetryCollector }}
           - name: COLLECTOR_OTLP_ENABLED
             value: "true"
