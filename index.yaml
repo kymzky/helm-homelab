@@ -20,6 +20,18 @@ entries:
     version: 1.0.0
   jellyseerr:
   - apiVersion: v2
+    created: "2025-03-11T16:56:06.203104462Z"
+    dependencies:
+    - name: common
+      repository: https://bubylou.github.io/Arr-Stack
+      version: 0.3.4
+    digest: 3f6e3d4c12d9adab53b7391297cf4c53988fbefccf12a5cbce1d6ccd7da01850
+    name: jellyseerr
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/jellyseerr-1.0.1/jellyseerr-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     created: "2025-02-25T21:23:41.588246941Z"
     dependencies:
     - name: common
@@ -32,6 +44,18 @@ entries:
     - https://github.com/kymzky/helm-homelab/releases/download/jellyseerr-1.0.0/jellyseerr-1.0.0.tgz
     version: 1.0.0
   navidrome:
+  - apiVersion: v2
+    created: "2025-03-11T16:56:06.358924412Z"
+    dependencies:
+    - name: common
+      repository: http://bjw-s.github.io/helm-charts/
+      version: 0.2.2
+    digest: 71c8874f5477152fef8049ba3c9ac712844e6fe8b4ad8852db0fc4865e4140cc
+    name: navidrome
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/navidrome-1.0.2/navidrome-1.0.2.tgz
+    version: 1.0.2
   - apiVersion: v2
     created: "2025-02-27T15:58:23.047394734Z"
     dependencies:
@@ -186,4 +210,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-09T15:48:52.774859854Z"
+generated: "2025-03-11T16:56:06.358959979Z"
