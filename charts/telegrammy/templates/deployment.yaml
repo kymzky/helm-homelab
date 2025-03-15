@@ -61,6 +61,8 @@ spec:
             {{- toYaml . | nindent 12 }}
           {{- end }}
           env:
+            - name: TZ
+              value: {{ .Values.env.TZ }}
             - name: TELEGRAMMY_CONFIG_PATH
               value: {{ .Values.env.TELEGRAMMY_CONFIG_PATH }}
             - name: CHAT_GPT_CONVERSATION_PATH
