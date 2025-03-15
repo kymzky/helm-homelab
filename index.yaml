@@ -45,6 +45,18 @@ entries:
     version: 1.0.0
   navidrome:
   - apiVersion: v2
+    created: "2025-03-15T11:21:05.635327516Z"
+    dependencies:
+    - name: common
+      repository: http://bjw-s.github.io/helm-charts/
+      version: 0.2.2
+    digest: d115ed621104c903a8aea0fbaae112f5f09a300d855eca517849b64192e9698b
+    name: navidrome
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/navidrome-1.0.3/navidrome-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
     created: "2025-03-11T16:56:06.358924412Z"
     dependencies:
     - name: common
@@ -210,4 +222,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-11T16:56:06.358959979Z"
+generated: "2025-03-15T11:21:05.63536705Z"
