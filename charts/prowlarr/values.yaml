@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: linuxserver/prowlarr
   pullPolicy: IfNotPresent
-  tag: "1.31.2"
+  tag: "1.32.2"
 
 imagePullSecrets: []
 nameOverride: ""
