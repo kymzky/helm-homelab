@@ -117,7 +117,7 @@ tolerations: []
 affinity: {}
 
 env:
-  TZ: Europe/Berlin
+  # TZ: Europe/Berlin
   TELEGRAMMY_CONFIG_PATH: /etc/telegrammy/config.yaml
   CHAT_GPT_CONVERSATION_PATH: /etc/telegrammy/conversation
 
