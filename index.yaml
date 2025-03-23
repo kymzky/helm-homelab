@@ -34,6 +34,15 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/ddns-updater-1.0.0/ddns-updater-1.0.0.tgz
     version: 1.0.0
+  home-assistant:
+  - apiVersion: v2
+    created: "2025-03-23T20:22:46.427600646Z"
+    digest: 1ba14c5b579f26ae0066307cb0a88c3169386d31b331ec5c6371e63e65678711
+    name: home-assistant
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/home-assistant-1.0.0/home-assistant-1.0.0.tgz
+    version: 1.0.0
   jellyseerr:
   - apiVersion: v2
     created: "2025-03-11T16:56:06.203104462Z"
@@ -254,4 +263,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-21T16:36:04.381826603Z"
+generated: "2025-03-23T20:22:46.427651862Z"
