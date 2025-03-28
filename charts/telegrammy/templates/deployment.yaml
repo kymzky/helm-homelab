@@ -79,6 +79,16 @@ spec:
                 secretKeyRef:
                   name: telegram-secret
                   key: telegram-token
+            - name: SSH_PRIVATE_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: telegram-secret
+                  key: ssh-private-key
+            - name: ANSIBLE_VAULT_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: telegram-secret
+                  key: ansible-vault-pass
             - name: OPENAI_API_KEY
               valueFrom:
                 secretKeyRef:
