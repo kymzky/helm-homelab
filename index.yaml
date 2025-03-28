@@ -175,6 +175,14 @@ entries:
     version: 1.0.0
   telegrammy:
   - apiVersion: v2
+    created: "2025-03-28T21:37:04.222158296Z"
+    digest: f138f09afd5ce677e8951164d546601aef941713cc1e77288b7ac6a1d1e6aa41
+    name: telegrammy
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/telegrammy-1.4.0/telegrammy-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v2
     created: "2025-03-16T13:00:05.248106573Z"
     digest: e4821b75af72cdd2af5ba91530144f355092855c8a97eb4fa221fcf5219bedd7
     name: telegrammy
@@ -263,4 +271,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-23T20:22:46.427651862Z"
+generated: "2025-03-28T21:37:04.222229389Z"
