@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: adguard/adguardhome
   pullPolicy: IfNotPresent
-  tag: "v0.107.61"
+  tag: "v0.107.63"
 
 imagePullSecrets: []
 nameOverride: ""
