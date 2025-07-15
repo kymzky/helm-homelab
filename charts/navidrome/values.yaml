@@ -5,7 +5,7 @@
 
 image:
   repository: deluan/navidrome
-  tag: "0.55.2"
+  tag: "0.57.0"
   pullPolicy: IfNotPresent
 
 # -- environment variables. See [navidrome docs](https://www.navidrome.org/docs/usage/configuration-options/#environment-variables) for more details.
