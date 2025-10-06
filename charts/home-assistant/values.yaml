@@ -9,7 +9,7 @@ replicaCount: 1
 image:
   repository: ghcr.io/home-assistant/home-assistant
   pullPolicy: IfNotPresent
-  tag: "2025.9.4"
+  tag: "2025.10.1"
 
 # List of imagePullSecrets for private image repositories
 imagePullSecrets: []
