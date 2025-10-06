@@ -116,7 +116,7 @@ env:
   SECURITY_USER_LOCKOUT_TIME: "24"
   
   # Database
-  DB_ENGINE: "postgres" # postgres or sqlite
+  DB_ENGINE: "sqlite" # postgres or sqlite
   
   # Webworker
   UVICORN_WORKERS: "1"
