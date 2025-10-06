@@ -212,6 +212,15 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/jellyseerr-1.0.0/jellyseerr-1.0.0.tgz
     version: 1.0.0
+  mealie:
+  - apiVersion: v2
+    created: "2025-10-06T21:40:19.034116308Z"
+    digest: 0af7d8ad130361cf5c54ab7cc626881d1783193e4875a7cb94675ff1cd3e9b11
+    name: mealie
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/mealie-0.0.1/mealie-0.0.1.tgz
+    version: 0.0.1
   navidrome:
   - apiVersion: v2
     created: "2025-07-30T19:26:09.085878944Z"
@@ -463,4 +472,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-06T21:07:08.592191746Z"
+generated: "2025-10-06T21:40:19.034208593Z"
