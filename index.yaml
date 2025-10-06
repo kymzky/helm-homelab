@@ -214,6 +214,18 @@ entries:
     version: 1.0.0
   mealie:
   - apiVersion: v2
+    created: "2025-10-06T22:02:17.604795423Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.x.x
+    digest: 5f17898bea425e91204327dc5f6ea0b0821c06d6ff0e3e84df2186d2d744f1bf
+    name: mealie
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/mealie-0.0.3/mealie-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     created: "2025-10-06T21:47:42.21625826Z"
     digest: 22b9b53fcc98844863845aad648a270459cfb4dc6723a370ae7e76850ce66c96
     name: mealie
@@ -480,4 +492,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-06T21:47:42.216328883Z"
+generated: "2025-10-06T22:02:17.604892314Z"
