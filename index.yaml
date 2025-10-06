@@ -214,6 +214,14 @@ entries:
     version: 1.0.0
   mealie:
   - apiVersion: v2
+    created: "2025-10-06T21:47:42.21625826Z"
+    digest: 22b9b53fcc98844863845aad648a270459cfb4dc6723a370ae7e76850ce66c96
+    name: mealie
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/mealie-0.0.2/mealie-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     created: "2025-10-06T21:40:19.034116308Z"
     digest: 0af7d8ad130361cf5c54ab7cc626881d1783193e4875a7cb94675ff1cd3e9b11
     name: mealie
@@ -472,4 +480,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-06T21:40:19.034208593Z"
+generated: "2025-10-06T21:47:42.216328883Z"
