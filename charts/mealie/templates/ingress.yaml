@@ -1,17 +1,20 @@
 {{- if .Values.ingress.enabled -}}
-apiVersion: networking.k8s.io/v1
+apiVersion: {{ include "common.capabilities.ingress.apiVersion" . }}
 kind: Ingress
 metadata:
   name: {{ include "mealie.fullname" . }}
   labels:
     {{- include "mealie.labels" . | nindent 4 }}
+    {{- with .Values.ingress.labels }}
+    {{- toYaml . | nindent 4 }}
+    {{- end }}
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
-  {{- if .Values.ingress.className }}
-  ingressClassName: {{ .Values.ingress.className }}
+  {{- with .Values.ingress.className }}
+  ingressClassName: {{ . }}
   {{- end }}
   {{- if .Values.ingress.tls }}
   tls:
@@ -20,9 +23,7 @@ spec:
         {{- range .hosts }}
         - {{ . | quote }}
         {{- end }}
-      {{- if .secretName }}
       secretName: {{ .secretName }}
-      {{- end }}
     {{- end }}
   {{- end }}
   rules:
@@ -32,7 +33,9 @@ spec:
         paths:
           {{- range .paths }}
           - path: {{ .path }}
-            pathType: {{ .pathType }}
+            {{- with .pathType }}
+            pathType: {{ . }}
+            {{- end }}
             backend:
               service:
                 name: {{ include "mealie.fullname" $ }}

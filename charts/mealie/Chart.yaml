@@ -1,5 +1,9 @@
 ---
 apiVersion: v2
 name: mealie
+dependencies:
+- name: common
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 2.x.x
 type: application
-version: 0.0.2
+version: 0.0.3
