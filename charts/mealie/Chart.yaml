@@ -1,9 +1,13 @@
 ---
 apiVersion: v2
 name: mealie
-dependencies:
-- name: common
-  repository: oci://registry-1.docker.io/bitnamicharts
-  version: 2.x.x
 type: application
-version: 0.0.4
+version: 0.0.5
+dependencies:
+  - name: common
+    version: 4.3.0
+    repository: https://bjw-s-labs.github.io/helm-charts/
+  - name: postgresql
+    version: 17.0.0
+    repository: https://charts.bitnami.com/bitnami
+    condition: postgresql.enabled
