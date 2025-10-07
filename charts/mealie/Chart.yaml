@@ -8,6 +8,6 @@ dependencies:
     version: 4.3.0
     repository: https://bjw-s-labs.github.io/helm-charts/
   - name: postgresql
-    version: 17.6.0
+    version: 18.0.7
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
