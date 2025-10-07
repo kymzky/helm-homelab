@@ -50,17 +50,3 @@ persistence:
         main: # the container with the "main" identifier
           - path: /app/data/
             readOnly: false
-
-# https://github.com/bitnami/charts/tree/master/bitnami/postgresql/#installing-the-chart
-postgresql:
-  enabled: false
-#  auth:
-#    postgresPassword: ""
-#    username: ""
-#    password: ""
-#    database: ""
-  persistence:
-    enabled: true
-    storageClass:
-    accessModes:
-      - ReadWriteOnce
