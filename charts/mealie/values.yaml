@@ -13,15 +13,9 @@ controllers:
     containers:
       main:
         image:
-          # -- image repository
           repository: ghcr.io/mealie-recipes/mealie
           tag: v3.3.1
-          # -- image pull policy
           pullPolicy: IfNotPresent
-        # -- environment variables.
-        # @default -- See below
-        env:
-          TZ: UTC
 
 # -- Configures service settings for the chart. Normally this does not need to be modified.
 # @default -- See values.yaml
