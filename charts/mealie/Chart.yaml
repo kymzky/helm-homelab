@@ -2,7 +2,7 @@
 apiVersion: v2
 name: mealie
 type: application
-version: 0.2.2
+version: 0.3.0
 dependencies:
   - name: common
     version: 4.3.0
