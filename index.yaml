@@ -222,6 +222,18 @@ entries:
     version: 1.0.0
   mealie:
   - apiVersion: v2
+    created: "2025-11-02T12:30:19.276635092Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts/
+      version: 4.3.0
+    digest: 726099799a8008dfb17421be68db62e51b402b2e3ad6e2d4a18425de4a6eab98
+    name: mealie
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/mealie-0.3.0/mealie-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     created: "2025-10-15T20:22:38.721059974Z"
     dependencies:
     - name: common
@@ -572,4 +584,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-15T20:23:40.13412481Z"
+generated: "2025-11-02T12:30:19.276765346Z"
