@@ -14,7 +14,7 @@ controllers:
       main:
         image:
           repository: ghcr.io/mealie-recipes/mealie
-          tag: v3.4.0
+          tag: v3.9.2
           pullPolicy: IfNotPresent
 
 # -- Configures service settings for the chart. Normally this does not need to be modified.
