@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   adguard-home:
   - apiVersion: v2
+    created: "2026-02-01T12:58:49.516241019Z"
+    digest: 7fe5e09285b021c4692d9829b5769fc01bad05a538c7c10fc00e0eea44ebb93e
+    name: adguard-home
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/adguard-home-1.1.0/adguard-home-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     created: "2025-10-06T21:05:32.521721399Z"
     digest: af6472150608ad860bd58144d2f798262695d4786df18c11cf63c087ae886990
     name: adguard-home
@@ -604,4 +612,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2026-02-01T12:56:31.558646178Z"
+generated: "2026-02-01T12:58:49.516379165Z"
