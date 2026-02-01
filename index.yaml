@@ -84,6 +84,14 @@ entries:
     version: 1.0.0
   home-assistant:
   - apiVersion: v2
+    created: "2026-02-01T12:43:48.522098242Z"
+    digest: 06d5d9e54034992ed94d51ae91313bd483ff87569ac0614b1731d535035ee9a6
+    name: home-assistant
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/home-assistant-2.0.0/home-assistant-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     created: "2025-10-15T20:23:40.133971722Z"
     digest: 7a17f9fdeabce1cf3b10f5c9320355812a855278a9a9bc4f7307a2b9ea887d22
     name: home-assistant
@@ -584,4 +592,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2025-11-02T12:30:19.276765346Z"
+generated: "2026-02-01T12:43:48.522315521Z"
