@@ -81,6 +81,19 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/adguard-home-1.0.0/adguard-home-1.0.0.tgz
     version: 1.0.0
+  baikal:
+  - apiVersion: v2
+    created: "2026-03-04T13:17:11.270158822Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.4.5
+    digest: bd29363ebedd766614ae4c0c38a90ebc025b82cf02995664b342ca42e1f4c65e
+    name: baikal
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/baikal-1.0.0/baikal-1.0.0.tgz
+    version: 1.0.0
   ddns-updater:
   - apiVersion: v2
     created: "2025-02-25T21:23:41.456315673Z"
@@ -684,4 +697,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2026-02-13T22:22:34.65903125Z"
+generated: "2026-03-04T13:17:11.270336476Z"
