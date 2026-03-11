@@ -91,6 +91,18 @@ entries:
     version: 1.0.0
   baikal:
   - apiVersion: v2
+    created: "2026-03-11T19:16:37.928031866Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.5.0
+    digest: e0b8f05d86d651f1c65caeef1b8aee7a1d8683d85a2bdc11d1fc3d476c4631a7
+    name: baikal
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/baikal-1.0.1/baikal-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     created: "2026-03-04T13:17:11.270158822Z"
     dependencies:
     - name: common
@@ -721,4 +733,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2026-03-11T19:15:16.158985438Z"
+generated: "2026-03-11T19:16:37.928188088Z"
