@@ -2,7 +2,7 @@
 apiVersion: v2
 name: baikal
 type: application
-version: 1.0.0
+version: 1.0.1
 dependencies:
 - name: common
   repository: https://rubxkube.github.io/common-charts
