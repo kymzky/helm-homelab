@@ -6,4 +6,4 @@ version: 1.3.4
 dependencies:
 - name: common
   repository: http://bjw-s-labs.github.io/helm-charts/
-  version: 0.2.2
+  version: 5.1.0
