@@ -116,6 +116,14 @@ entries:
     version: 1.0.0
   ddns-updater:
   - apiVersion: v2
+    created: "2026-08-27T13:00:36.079470636Z"
+    digest: 7946dc4be6f69fac77de26eabaa55bce4e16c6a530e51d925682be32df7c79e0
+    name: ddns-updater
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/ddns-updater-1.1.0/ddns-updater-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     created: "2025-02-25T21:23:41.456315673Z"
     digest: 7fbfa7ea21517132fbb10e6dc4ce396046e85222cca1fdfdfce10fecd7570d2f
     name: ddns-updater
@@ -745,4 +753,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2026-08-11T19:25:33.843280615Z"
+generated: "2026-08-27T13:00:36.079629534Z"
