@@ -8,7 +8,7 @@ replicaCount: 1
 image:
   repository: qmcgaw/ddns-updater
   pullPolicy: IfNotPresent
-  tag: "v2.9.0"
+  tag: "v2.10.0"
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
