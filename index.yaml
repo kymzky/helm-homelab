@@ -750,6 +750,14 @@ entries:
     version: 1.0.0
   wg-easy:
   - apiVersion: v2
+    created: "2026-11-01T14:33:48.624705762Z"
+    digest: f2498395ca265f34229bd727bec47e1b7e3d6428a0103a43e128072d3bde8835
+    name: wg-easy
+    type: application
+    urls:
+    - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.4.1/wg-easy-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v2
     created: "2025-07-15T15:18:54.483133173Z"
     digest: 4a9f51b1145426cb7cfb4d0192f56f53b26f7ec95e19c910c6dddb77be819d21
     name: wg-easy
@@ -797,4 +805,4 @@ entries:
     urls:
     - https://github.com/kymzky/helm-homelab/releases/download/wg-easy-1.0.0/wg-easy-1.0.0.tgz
     version: 1.0.0
-generated: "2026-10-01T16:43:33.515416331Z"
+generated: "2026-11-01T14:33:48.624785085Z"
